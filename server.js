@@ -1,4 +1,6 @@
+#!/usr/bin/env node
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
+
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { ListToolsRequestSchema, CallToolRequestSchema } from "@modelcontextprotocol/sdk/types.js";
 import { execFile } from "child_process";
@@ -6,7 +8,7 @@ import { execFile } from "child_process";
 const server = new Server(
   {
     name: "spicy-server",
-    version: "1.0.0"
+    version: "0.1.0"
   },
   {
     capabilities: {
