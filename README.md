@@ -19,3 +19,20 @@ npx @modelcontextprotocol/inspector node server.js
 
 <img width="1920" height="929" alt="image" src="https://github.com/user-attachments/assets/e2b38912-519e-469f-ab48-2803f14af3dd" />
 
+
+
+```
+...
+
+    "powershell-runner": {
+      "command": "node",
+      "args": [
+        "-e",
+        "const fs = require('fs'), { execSync } = require('child_process'); if (!fs.existsSync('PowerShellRunner')) { execSync('git clone https:\\/\\/github.com\\/jmake\\/PowerShellRunner.git'); execSync('npm install', { cwd: 'PowerShellRunner' }); } import('.\\/PowerShellRunner\\/server.js').catch(console.error);"
+      ],
+      "env": {}
+    }
+...
+```
+
+
