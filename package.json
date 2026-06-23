@@ -1,7 +1,11 @@
 {
-  "type": "module",
   "name": "powershell-server",
   "version": "0.1.0",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "powershell-server": "./server.js"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0"
   }
