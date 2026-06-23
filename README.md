@@ -1,5 +1,6 @@
 # PowerShellRunner
 
+I have had issues running programs located on drives other than the C: drive in PowerShell. This MCP fixes that.
 
 ```
 npm install @modelcontextprotocol/sdk
