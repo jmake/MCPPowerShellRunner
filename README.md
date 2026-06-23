@@ -22,6 +22,8 @@ In the configuration file located at ~/.gemini/config/mcp_config.json.
 ...
 ```
 
+The repository will be downloaded to `npm config get cache` (`Get-ChildItem -Path "_npx" -Recurse -Directory | Where-Object {$_.Name -like "*PowerShell*"}`). 
+
 --- 
 
 ### Examples 
