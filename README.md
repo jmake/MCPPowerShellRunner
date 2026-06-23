@@ -23,6 +23,9 @@ npx @modelcontextprotocol/inspector node server.js
 <img width="1920" height="929" alt="image" src="https://github.com/user-attachments/assets/e2b38912-519e-469f-ab48-2803f14af3dd" />
 
 
+---
+
+In the configuration file located at ~/.gemini/config/mcp_config.json.
 
 ```
 ...
@@ -37,5 +40,10 @@ npx @modelcontextprotocol/inspector node server.js
     }
 ...
 ```
+
+### Example : Execute Start-Process D:\z2025_1\IsaacSim500\isaac-sim.bat
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/84d806a5-f6ff-4100-a9eb-88a5657330c6" />
+
 
 
