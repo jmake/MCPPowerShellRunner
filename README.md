@@ -42,7 +42,18 @@ In the configuration file located at ~/.gemini/config/mcp_config.json.
 ```
 
 --- 
-For instance, `Execute Start-Process D:\z2025_1\IsaacSim500\isaac-sim.bat`
+
+For instance, execute 
+
+- 
+```
+Start-Process D:\z2025_1\IsaacSim500\isaac-sim.bat
+```
+
+-
+```
+- Start-Process -FilePath "powershell.exe" -ArgumentList "-Command `" & 'path\to\script.py' `"" -RedirectStandardOutput "out.txt" -RedirectStandardError "err.txt"
+```
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/84d806a5-f6ff-4100-a9eb-88a5657330c6" />
 
