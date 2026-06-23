@@ -33,7 +33,7 @@ Start-Process D:\z2025_1\IsaacSim500\isaac-sim.bat
 
 - Execute a script saving outputs to _out.txt_ and errors to _err.txt_.
 ```
-- Start-Process -FilePath "powershell.exe" -ArgumentList "-Command `" & 'path\to\script.py' `"" -RedirectStandardOutput "out.txt" -RedirectStandardError "err.txt"
+Start-Process -FilePath "powershell.exe" -ArgumentList "-Command `" & 'path\to\script.py' `"" -RedirectStandardOutput "out.txt" -RedirectStandardError "err.txt"
 ```
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/84d806a5-f6ff-4100-a9eb-88a5657330c6" />
