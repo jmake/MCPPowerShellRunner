@@ -20,7 +20,7 @@ const server = new Server(
 server.setRequestHandler(ListToolsRequestSchema, async () => {
   return {
     tools: [{
-      name: "execute_powershell",
+      name: "execute_command",
       description: "Execute PowerShell commands",
       inputSchema: {
         type: "object",
@@ -33,7 +33,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
 });
 
 server.setRequestHandler(CallToolRequestSchema, async (request) => {
-  if (request.params.name !== "execute_powershell") {
+  if (request.params.name !== "execute_command") {
     throw new Error("Unknown tool");
   }
   const command = request.params.arguments.command || "Clear-Host; Get-Date; Get-Location;";
