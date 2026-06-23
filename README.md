@@ -39,9 +39,9 @@ Start-Process D:\z2025_1\IsaacSim500\isaac-sim.bat
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/84d806a5-f6ff-4100-a9eb-88a5657330c6" />
 
 
-
-
 ---
+### Testing MCP server 
+
 ```
 npm install @modelcontextprotocol/sdk
 ```
