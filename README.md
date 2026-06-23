@@ -1,7 +1,9 @@
 # PowerShellRunner
 
-I have had issues running programs located on drives other than the C: drive in PowerShell. This MCP fixes that.
+When the agent attempts to execute programs located on drives other than `C:`, some issues arise.  
+These problems seem to be related to antigravity's own `run_command` tool (in my case). This MCP fixes that.
 
+---
 ```
 npm install @modelcontextprotocol/sdk
 ```
