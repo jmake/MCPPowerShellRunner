@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "name": "powershell-server",
+  "version": "0.1.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}
