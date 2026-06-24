@@ -46,12 +46,12 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           type: "text",
           text: JSON.stringify({
             stdout: "",
-            stderr: "Command timed out after 30 seconds",
+            stderr: "Command timed out after 59 seconds",
             returncode: -1
           })
         }]
       });
-    }, 30000);
+    }, 59000);
     child = execFile(
       "powershell",
       ["-NoProfile", "-Command", command],
