@@ -21,7 +21,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
   return {
     tools: [{
       name: "execute_command",
-      description: "Execute PowerShell commands",
+      description: "Execute PowerShell commands. Examples:\n- Launch/Run/Execute APPLICATION_NAME in A new window and keep it open: Start-Process -FilePath \"powershell.exe\" -ArgumentList \"-NoExit -Command & 'PATH\\TO\\APPLICATION_EXECUTABLE'\"",
       inputSchema: {
         type: "object",
         properties: {
